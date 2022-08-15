@@ -3,7 +3,7 @@
 Sprite::Sprite(Mapa* mapa, int margin_up, int margin_left, QObject *parent) :
     QObject(parent), QGraphicsItem(), margin_up(margin_up), margin_left(margin_left), mapa(mapa)
 {
-    currentFrame = 0;   // Sets the coordinates of the current frame of the sprite
+    currentFrame = 50;   // Sets the coordinates of the current frame of the sprite
     //    spriteImage = new QPixmap(":/chars/explosion.png"); // Load the sprite image QPixmap
     spriteImage = new QPixmap(":/chars/game-chars.png"); // Load the sprite image QPixmap
 
