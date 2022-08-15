@@ -7,6 +7,9 @@ Sprite::Sprite(Mapa* mapa, int margin_up, int margin_left, QObject *parent) :
     //    spriteImage = new QPixmap(":/chars/explosion.png"); // Load the sprite image QPixmap
     spriteImage = new QPixmap(":/chars/game-chars.png"); // Load the sprite image QPixmap
 
+
+
+
     timer = new QTimer();   // Create a timer for sprite animation
     connect(timer, &QTimer::timeout, this, &Sprite::nextFrame);
     timer->start(10);   // Run the sprite on the signal generation with a frequency of 25 ms
