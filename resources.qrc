@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/chars">
+        <file>gallery_40907_14_34089.png</file>
+        <file>explosion.png</file>
+        <file>game-chars.png</file>
+    </qresource>
+    <qresource prefix="/board">
+        <file>pocao.png</file>
+        <file>porta.png</file>
+        <file>grama.jpg</file>
+        <file>wall.jpg</file>
+    </qresource>
+</RCC>
